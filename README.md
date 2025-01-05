@@ -1,2 +1,4 @@
 # Exoplanet-Detection
-Detection of Exoplanet using Deep Learning
+In this project, we explored concepts in Python and TensorFlow by analyzing data from NASA's Mikulski Archive for Space Telescopes (MAST). Using the Lightkurve library in Python, we generated graphs of various planets to determine which are exoplanets. TensorFlow was then employed to train an AI model capable of identifying exoplanets based on this data. 
+
+The model was trained using the command `model.fit(X_train, y_train, epochs=50)`, achieving an impressive 95% accuracy across the 196 columns in the MAST dataset. The AI processes the data in less than a second, significantly faster than manual human analysis. The results are presented in binary format, where "1" indicates an exoplanet, and "0" indicates otherwise. This approach leverages data convolution within the range [1, -1] to enable accurate exoplanet classification.
